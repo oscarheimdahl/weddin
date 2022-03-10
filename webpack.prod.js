@@ -1,9 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
   entry: './src',
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'index_bundle.js',
@@ -32,11 +31,6 @@ module.exports = {
         type: 'asset/resource',
       },
     ],
-  },
-  resolve: {
-    alias: {
-      Images: path.resolve(__dirname, 'src/images/'),
-    },
   },
   plugins: [
     new HtmlWebpackPlugin({
