@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Serif:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -8,5 +10,31 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  font-family: sans-serif;
+  font-family: PT Serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+
+.view {
+  position: absolute;
+  bottom: 0;
+  height: calc(100% - 5rem);
+  width: calc(100% - 4rem);
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-top: none;
+}
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 15px;
+  }
 }

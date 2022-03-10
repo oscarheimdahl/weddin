@@ -3,12 +3,20 @@
   height: 3rem;
   top: 0;
   left: 0;
-  background-color: rgb(215, 243, 164);
+  background-color: #ffcca5;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
-  a {
-    font-weight: bold;
+  button {
+    font-family: Dancing Script;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

@@ -1,4 +1,7 @@
 import './index.scss';
 
-import './components/Header';
-import './components/SlideShow';
+import StartView from './views/StartView';
+import Header from 'Components/Header';
+
+document.body.appendChild(Header);
+document.body.appendChild(StartView);
