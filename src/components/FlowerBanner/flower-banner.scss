@@ -11,5 +11,6 @@
   display: flex;
   img.rotated {
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
   }
 }
