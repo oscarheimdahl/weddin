@@ -2,15 +2,17 @@
   width: 100%;
   overflow: hidden;
   display: flex;
-  img {
-    &.rotated {
-      transform: rotate(180deg);
-      -webkit-transform: rotate(180deg);
-    }
+  box-shadow: rgb(0, 0, 0, 0.2) 0px -8px 24px;
+  &.rotated {
+    box-shadow: none;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
   }
 }
 @media screen and (max-width: 600px) {
-  img {
-    height: 80px;
+  #flower-banner {
+    img {
+      height: 80px;
+    }
   }
 }

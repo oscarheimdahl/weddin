@@ -20,7 +20,7 @@ För er som ska bo på hotell så rekomenderar vi att ni bokar rum på något av
 <br/>
 <br/>
 
-Om ni vill hålla tal, har förberett en lek eller något annat kul, så skicka gärna ett mail till våra toastmasters Liisa och Lina på XXXXXX så de kan planera kvällen.
+Om ni vill hålla tal, har förberett en lek eller något annat kul, så skicka gärna ett mail till våra toastmasters <a href="mailto:oscartove.toastmaster@gmail.com">Liisa och Lina</a> så de kan planera kvällen.
 
 <br/>
 <br/>
