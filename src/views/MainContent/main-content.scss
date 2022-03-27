@@ -41,6 +41,13 @@
     p {
       margin: 1rem;
       max-width: 800px;
+
+      span#open-playlist {
+        text-decoration: underline;
+        & {
+          cursor: pointer;
+        }
+      }
     }
 
     #heart-img {
@@ -48,6 +55,7 @@
       width: 90px;
       height: 90px;
       transition: transform 100ms;
+      filter: invert(96%) sepia(37%) saturate(5738%) hue-rotate(296deg) brightness(108%) contrast(111%);
 
       &:hover {
         transform: rotate(-10deg);
@@ -57,6 +65,16 @@
         transform: rotate(-10deg) scale(0.95);
         cursor: pointer;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-content {
+    #main-container {
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin: 0 0.5rem;
     }
   }
 }

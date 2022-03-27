@@ -50,6 +50,8 @@ module.exports = {
     alias: {
       Images: path.resolve(__dirname, 'src/images/'),
       Components: path.resolve(__dirname, 'src/components/'),
+      Views: path.resolve(__dirname, 'src/views/'),
+      Resources: path.resolve(__dirname, 'src/resources/'),
     },
   },
   plugins: [

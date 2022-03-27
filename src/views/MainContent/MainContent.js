@@ -1,6 +1,6 @@
 import './main-content.scss';
-import { FlowerBanner } from '../FlowerBanner/FlowerBanner';
-import { pText } from '../../resources/pText';
+import { FlowerBanner } from '../../components/FlowerBanner/FlowerBanner';
+import { pText } from 'Resources/pText';
 import heartImg from 'Images/heart.png';
 
 const introText = document.createElement('h1');
@@ -14,7 +14,7 @@ const heading = document.createElement('h2');
 heading.innerHTML = '• Den 16 juli gifter vi oss<span>!</span> •';
 
 const p = document.createElement('p');
-p.innerText = pText;
+p.innerHTML = pText;
 
 const heart = document.createElement('img');
 heart.src = heartImg;
