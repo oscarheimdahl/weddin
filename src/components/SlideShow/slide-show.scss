@@ -8,31 +8,41 @@
 
   img {
     animation: slide;
-    animation-duration: 100s;
+    animation-duration: 200s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 24px;
     max-width: 300px;
-    transition: filter 400ms;
-    filter: grayscale(0.4);
+
     &.horizontal {
       max-width: 400px;
       align-self: center;
     }
+  }
+}
 
-    &:hover {
-      filter: none;
+@media screen and (max-width: 600px) {
+  #slide-show {
+    img {
+      max-width: 150px;
+      &.horizontal {
+        max-width: 200px;
+        align-self: center;
+      }
     }
   }
 }
 
 @keyframes slide {
+  // 0% {
+  //   transform: translateX(0px);
+  // }
   0% {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-1160px);
+    transform: translateX(calc(100vw - 5220px));
   }
   100% {
     transform: translateX(0);

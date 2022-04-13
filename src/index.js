@@ -8,6 +8,8 @@ import SlideShow from 'Components/SlideShow/SlideShow';
 
 // document.body.appendChild(Header);
 // document.body.appendChild(Background);
-document.body.appendChild(PlaylistModal);
+// document.body.appendChild(PlaylistModal);
 document.body.appendChild(MainContent);
 document.body.appendChild(SlideShow);
+
+console.error('🔵 S K A F F A - D I G - E T T - L I V 🔵');

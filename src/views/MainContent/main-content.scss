@@ -35,7 +35,7 @@
   #main-container {
     width: 100%;
     min-height: 70vh;
-    max-height: 1000px;
+    // max-height: 1000px;
     background-color: #ffffff;
     margin: 0 1rem;
     padding: 2rem 1rem;
@@ -72,7 +72,6 @@
       width: 90px;
       height: 90px;
       transition: transform 100ms;
-      filter: invert(96%) sepia(37%) saturate(5738%) hue-rotate(296deg) brightness(108%) contrast(111%);
 
       &:hover {
         transform: rotate(-10deg);
